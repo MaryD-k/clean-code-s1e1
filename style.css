@@ -51,11 +51,11 @@
 }
 
 .task-input,
-.button {
+.btn {
   outline: none;
 }
 
-.button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +67,7 @@
 
 /* Heading */
 
-.task-list-subtitle {
+.task-list-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +104,7 @@
   width: 318px;
 }
 
-.adding-task .button:hover {
+.adding-task .btn:hover {
   color: #0fc57c;
 }
 
@@ -121,7 +121,7 @@
 
 .task-list__item > .task-input,
 .task-list__item > .task-name,
-.task-list__item > .button {
+.task-list__item > .btn {
   vertical-align: middle;
 }
 
@@ -142,13 +142,13 @@
   color: #cf2323;
 }
 
-.button__image {
+.btn__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__image:hover {
+.btn__image:hover {
   transform: rotateZ(0);
 }
 
